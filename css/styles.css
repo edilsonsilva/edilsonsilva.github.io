@@ -145,6 +145,7 @@ header p {
   padding: 20px;
   text-align: left;
   margin: auto;
+  margin-bottom: 200px;
 }
 
 .form-display h3 {
@@ -250,9 +251,19 @@ header p {
   #quantidade {
     width: 60vw;
   }
-  .plsobre {
+  #plsobre {
+    width: 90%;
     display: block;
     height: 200vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sobre h2{
+    width: 70vw !important;
+  }
+  .sobre div{
+    width: 80vw;
+    text-align: justify;
   }
 }
 label span {
@@ -260,4 +271,38 @@ label span {
 }
 header a {
   display: none;
+}
+
+footer{
+  position: fixed;
+  bottom: 45px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+  height: 60px;
+  z-index: 10000000;
+}
+footer nav ul li{
+  display: inline-block;
+  width: 24%;
+  margin:0;
+}
+footer nav ul li a{
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  padding: 10px;
+  color:#000;
+  text-align: center;
+  text-decoration: none;
+}
+footer nav ul li a:hover {
+
+  background-color: orange;
+}
+.inicio{
+  background-image: url("../images/splash.png");
+  background-size:100%;
 }

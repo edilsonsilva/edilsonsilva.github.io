@@ -42,35 +42,23 @@
     </header>
     <main id="main">
       <div id="estoque" tabindex="1">
-        <div style="display: none">
-          <h2>Em estoque</h2>
-          <div id="conteudoestoque"></div>
-        </div>
-        <h2>Realizar Retirada</h2>
-        <form onsubmit="return false" class="form-display" >
-          <h3>Selecione o produto que deseja retirar</h3>
-          <label for="select-retirada"><span>Selecione</span></label>
-          <select id="select-retirada" onchange="mensagem()">
-            <option value="Arroz">Arroz</option>
-            <option value="Feijão">Feijão</option>
-            <option value="Óleo">Óleo</option>
-            <option value="Sal">Sal</option>
-            <option value="Macarrão">Macarrão</option>
-            <option value="Detergente">Detergente</option>
-            <option value="Leite em Pó">Leite em Pó</option>
-          
-          </select>
-
-          <h3>Quantidade a ser retirada</h3>
-          <label for="quantidade-retirada"><span>Selecione</span></label>
-          <select id="quantidade-retirada"></select>
-
-          <button id="btnForm" onclick="realizarRetirada()">
-            Realizar Retirada
-          </button>
-        </form>
+        <h2>Em estoque</h2>
+        <div id="conteudoestoque"></div>
       </div>
-     
+      <!-- <div id="botoes">
+        <button id="retirada" tabindex="2">
+          <ion-icon name="pricetag"></ion-icon> Retirar Doação
+        </button>
+        <button id="doacao" tabindex="3">
+          <ion-icon name="heart"></ion-icon> Realizar Doação
+        </button>
+        <button id="telainicial" tabindex="4">
+          <ion-icon name="home"></ion-icon> Tela Incial
+        </button>
+        <button id="sobre" tabindex="5">
+          <ion-icon name="settings"></ion-icon> Sobre
+        </button>
+      </div> -->
     </main>
 
 
@@ -84,7 +72,6 @@
         </ul>
       </nav>
     </footer>
-
 
     <script src="js/scripts.js"></script>
     <script

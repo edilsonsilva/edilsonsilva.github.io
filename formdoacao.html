@@ -50,7 +50,15 @@
         <form onsubmit="return false" class="form-display">
           <h3>Selecione o produto que deseja Doar</h3>
           <label for="select-retirada"><span>Selecione</span></label>
-          <select id="select-retirada"></select>
+          <select id="select-retirada">
+            <option value="Arroz">Arroz</option>
+            <option value="Feijão">Feijão</option>
+            <option value="Óleo">Óleo</option>
+            <option value="Sal">Sal</option>
+            <option value="Macarrão">Macarrão</option>
+            <option value="Detergente">Detergente</option>
+            <option value="Leite em Pó">Leite em Pó</option>
+          </select>
 
           <h3>Selecione a data de validade do produto</h3>
           <div class="validade">
@@ -81,21 +89,19 @@
           </button>
         </form>
       </div>
-      <div id="botoes">
-        <button id="retirada" tabindex="2">
-          <ion-icon name="pricetag"></ion-icon> Retirar Doação
-        </button>
-        <button id="doacao" tabindex="3">
-          <ion-icon name="heart"></ion-icon> Realizar Doação
-        </button>
-        <button id="telainicial" tabindex="4">
-          <ion-icon name="home"></ion-icon> Tela Incial
-        </button>
-        <button id="sobre" tabindex="5">
-          <ion-icon name="settings"></ion-icon> Sobre
-        </button>
-      </div>
+      
     </main>
+
+    <footer>
+      <nav>
+        <ul>
+        <li><a href="index1.html" class="link-nav"> <ion-icon name="home"></ion-icon> <br> Home </a></li>
+        <li><a href="formretirada.html" class="link-nav"> <ion-icon name="pricetag"></ion-icon> <br> Retirada</a></li>
+        <li><a href="formdoacao.html" class="link-nav"> <ion-icon name="heart"></ion-icon> <br> Doação </a></li>
+        <li><a href="sobre.html" class="link-nav"> <ion-icon name="settings"></ion-icon> <br> Sobre </a></li>
+        </ul>
+      </nav>
+    </footer>
 
     <script src="js/scripts.js"></script>
     <script
